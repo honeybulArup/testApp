@@ -1,0 +1,21 @@
+/*map width */
+#map {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+/*mapbox logo*/
+a.mapboxgl-ctrl-logo {
+    display: none;
+}
+/*mapbox bottom label*/
+div.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+    display: none;
+}
+/*zoom control label*/
+div.mapboxgl-ctrl-top-right {
+    top: 0;
+    right : 10px;
+    position: absolute;
+}
