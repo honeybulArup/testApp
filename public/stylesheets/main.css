@@ -9,13 +9,35 @@
 a.mapboxgl-ctrl-logo {
     display: none;
 }
+
 /*mapbox bottom label*/
 div.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
     display: none;
 }
+
 /*zoom control label*/
-div.mapboxgl-ctrl-top-right {
+/*div.mapboxgl-ctrl-top-right {
     top: 0;
     right : 10px;
     position: absolute;
+}*/
+
+/*hide zoom control label */
+div.mapboxgl-ctrl-top-right {
+    display: none
+}
+
+/*arup logo*/
+#arupLogo {
+    position: absolute;
+    background-color: red;
+    padding: 10px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+    width: 125px;
+    opacity: 0.5;
+}
+
+#arupLogo:hover {
+    opacity: 0.8;
 }
